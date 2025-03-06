@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color: var(--black);
 }
+/* Оставим пока что так не нужно в global выносить стили которые относятся к контейнерам, для этого есть Layout */
 
 :root {
   --black: #121212;
@@ -9,4 +11,5 @@ body {
 
 #root {
   max-width: 800px;
+  margin: 0 auto;
 }

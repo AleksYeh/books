@@ -7,7 +7,6 @@ export class Header extends DivComponent {
     this.appState = appState;
   }
   render() {
-    this.el.innerHTML = "";
     this.el.classList.add("header");
     this.el.innerHTML = `
         <div>
@@ -18,7 +17,7 @@ export class Header extends DivComponent {
                 <img src="/static/search.svg" alt="Поиск иконка" />
                 Поиск книг
             </a>
-            <a class = "menu__item" href = "#">
+            <a class = "menu__item" href = "#favorites">
                 <img src="/static/favorites.svg" alt="Избранное иконка"/>
                 Избранное
                 <div class = "menu__counter">
