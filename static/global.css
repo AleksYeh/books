@@ -1,0 +1,12 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --black: #121212;
+  --white: #fafafa;
+}
+
+#root {
+  max-width: 800px;
+}
